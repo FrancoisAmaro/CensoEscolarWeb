@@ -1,0 +1,82 @@
+[
+  {
+    "NO_ENTIDADE":"UNICORP CURSOS E CONSULTORIA EDUCACIONAL",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":2853,
+    "QT_MAT_FUND":0,
+    "QT_MAT_MED":0,
+    "QT_MAT_PROF":2853
+  },
+  {
+    "NO_ENTIDADE":"IFPB - CAMPUS JOAO PESSOA",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1971,
+    "QT_MAT_FUND":0,
+    "QT_MAT_MED":1050,
+    "QT_MAT_PROF":1971
+  },
+  {
+    "NO_ENTIDADE":"EM PROFESSORA ANAYDE BEIRIZ",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1922,
+    "QT_MAT_FUND":1538,
+    "QT_MAT_MED":0,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"CEEEA SESQUICENTENARIO",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1784,
+    "QT_MAT_FUND":1144,
+    "QT_MAT_MED":640,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"ISO COLEGIO E CURSOS",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1784,
+    "QT_MAT_FUND":1137,
+    "QT_MAT_MED":429,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"CENTRO PESSOENSE DE EDUCACAO LTDA - AMBIENTAL",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1776,
+    "QT_MAT_FUND":1539,
+    "QT_MAT_MED":0,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"COLEGIO MARISTA PIO X",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1766,
+    "QT_MAT_FUND":1172,
+    "QT_MAT_MED":346,
+    "QT_MAT_PROF":283
+  },
+  {
+    "NO_ENTIDADE":"COLEGIO WALFREDO SIQUEIRA LUNA",
+    "NO_MUNICIPIO":"Campina Grande",
+    "QT_MAT_BAS":1762,
+    "QT_MAT_FUND":1323,
+    "QT_MAT_MED":176,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"EM DOM HELDER CAMARA",
+    "NO_MUNICIPIO":"João Pessoa",
+    "QT_MAT_BAS":1636,
+    "QT_MAT_FUND":1490,
+    "QT_MAT_MED":0,
+    "QT_MAT_PROF":0
+  },
+  {
+    "NO_ENTIDADE":"CENTRO DE ENS FUND LUZIA MAIA",
+    "NO_MUNICIPIO":"Catolé do Rocha",
+    "QT_MAT_BAS":1620,
+    "QT_MAT_FUND":1438,
+    "QT_MAT_MED":0,
+    "QT_MAT_PROF":0
+  }
+]
