@@ -4,6 +4,11 @@ Projeto desenvolvido para a disciplina de Programação Web 1 no Instituto Feder
 
 A proposta do trabalho é criar uma aplicação web interativa que exibe o ranking das 10 maiores instituições de ensino do estado da Paraíba com base no número total de matrículas ativas, utilizando dados oficiais do Censo Escolar da Educação Básica (INEP).
 
+## Repositórios do Projeto
+
+- **Frontend (Aplicação Web):** https://github.com/FrancoisAmaro/CensoEscolarWeb
+- **Processamento de Dados (Python):** https://github.com/FrancoisAmaro/CensoEscolarDataApp
+
 ## Informações Acadêmicas
 
 - **Instituição:** Instituto Federal da Paraíba (IFPB) - Campus Guarabira
@@ -11,7 +16,7 @@ A proposta do trabalho é criar uma aplicação web interativa que exibe o ranki
 - **Disciplina:** Programação Web 1
 - **Professor:** Rhavy Maia Guedes
 - **Aluno:** François de Araújo Amaro
-- **GitHub:** https://github.com/FrancoisAmaro
+- **GitHub do Aluno:** https://github.com/FrancoisAmaro
 
 ## Tecnologias Utilizadas
 
