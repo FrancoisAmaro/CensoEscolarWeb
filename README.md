@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina de Programação Web 1 no Instituto Federal da Paraíba (IFPB), Campus Guarabira, no ano de 2026.
 
-A proposta do trabalho é criar uma aplicação web interativa que exibe o ranking das 10 maiores instituições de ensino do estado da Paraíba com base no número total de matrículas ativas, utilizando dados oficiais do Censo Escolar da Educação Básica (INEP).
+A proposta do trabalho é criar uma aplicação web interativa em React que exibe o ranking das 10 maiores instituições de ensino do estado da Paraíba com base no número total de matrículas ativas, utilizando dados oficiais do Censo Escolar da Educação Básica (INEP).
 
 ## Repositórios do Projeto
 
@@ -20,27 +20,38 @@ A proposta do trabalho é criar uma aplicação web interativa que exibe o ranki
 
 ## Tecnologias Utilizadas
 
-- HTML5 e CSS3
-- Bootstrap 5 (estilização e componentes de interface)
-- JavaScript puro / ES6+ (consumo assíncrono via Fetch API e manipulação do DOM)
-- Python 3 com biblioteca Pandas (tratamento, filtragem e extração do CSV para JSON)
-- Fonte de Dados: Microdados do Censo Escolar (INEP)
+- **React (Vite):** Estruturação da interface em componentes reutilizáveis e gerenciamento de navegação por estado.
+- **Bootstrap 5:** Estilização responsiva, carrossel e componentes de interface.
+- **JavaScript (ES6+):** Renderização dinâmica das tabelas e formatação numérica.
+- **Python 3 com biblioteca Pandas:** Tratamento, filtragem e extração do CSV para JSON no repositório de dados.
+- **Fonte de Dados:** Microdados do Censo Escolar (INEP).
 
 ## Estrutura do Projeto
 
-- index.html: Página inicial com apresentação geral e carrossel de imagens.
-- instituicoes.html: Página que renderiza a tabela com o ranking estadual.
-- src/js/ranking.js: Script responsável por ler os dados e montar a tabela dinamicamente.
-- src/datasets/instituicoes_pb.json: Base de dados estruturada das escolas da Paraíba.
-- src/img/: Imagens e ativos visuais do projeto.
+- `index.html`: Ponto de entrada HTML da aplicação Vite com importação do Bootstrap 5.
+- `src/App.jsx`: Componente raiz que gerencia a navegação entre a página inicial e o ranking.
+- `src/components/Navbar.jsx`: Barra de navegação superior em vermelho (`Censo Escolar PB`).
+- `src/components/Home.jsx`: Página inicial com o carrossel de 6 imagens e os cartões informativos.
+- `src/components/Instituicoes.jsx`: Página que renderiza a tabela com o ranking estadual e o detalhamento por modalidade.
+- `src/datasets/instituicoes_pb.json`: Base de dados estruturada das escolas da Paraíba.
+- `public/img/`: Imagens e ativos visuais do carrossel.
 
 ## Como Executar
 
 1. Abra o terminal na pasta do projeto:
-cd ~/Projetos/CensoEscolarWeb
+   ```bash
+   cd ~/Projetos/CensoEscolarWeb
+   ```
 
-2. Inicie o servidor local nativo do Python:
-python3 -m http.server 8000
+2. Instale as dependências do Node/React:
+   ```bash
+   npm install
+   ```
 
-3. Abra o navegador e acesse:
-http://localhost:8000
+3. Inicie o servidor de desenvolvimento do Vite:
+   ```bash
+   npm run dev
+   ```
+
+4. Abra o navegador e acesse:
+   http://localhost:5173
